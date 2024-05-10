@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Climatizacion Marti - venta de equipos de refrigeracion,
-        instalacion y reparacion.
+        instalacion y mantenimiento.
     </title>
     <link rel="stylesheet" href="./styles/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <img src="./assets/images/climatizacion.png" alt="logo pagina">
         <nav>
             <ul>
               <li><a href="/#banner">Quienes somos<a/></li>
@@ -25,22 +25,23 @@
     <main>
         <section id="banner">
             <h1>Climatizacion Marti</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ullam ratione esse magnam corrupti doloremque sint, aspernatur eius explicabo eligendi deserunt nisi officia maiores rerum veniam nemo dolore nesciunt recusandae fugit beatae exercitationem voluptatibus? Ipsum laborum corrupti fugiat reiciendis atque soluta autem deleniti, aliquam perferendis vero dolore, enim saepe dolorum!</p>
+            <p>Brindamos servicios completos de climatizacion, desde instalación hasta mantenimiento y reparación, tanto para hogares como para empresas. Ademas, tambien ofrecemos una amplia selección de equipos de calidad, como sistemas sistemas de aire acondicionado y calefacción, para garantizar el máximo confort y bienestar en todo momento. ¡Contáctanos y disfruta de un ambiente perfecto!
+            </p>
             <img src="./assets/images/imagen principal banner.jpg" alt="imagen principal">
         </section>
         <section id="services">
             <div class="container-grid-services">
                 <div>
-                    <h3>equipos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore exercitationem assumenda cum impedit ut officiis cupiditate culpa minus iure reiciendis?</p>
+                    <h3>Equipos</h3>
+                    <p>Ofrecemos una gama completa de equipos de climatizacion para empresas y hogares que van desde <STrong>Aires acondicionados</STrong> tanto frio como calor y pasando a equipos industriales como son los  <STRong> Rooftop, las Utas, chillers y Calderas.</STRong>  </p>
                 </div>
                 <div>
                     <h3>Instalaciones</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore exercitationem assumenda cum impedit ut officiis cupiditate culpa minus iure reiciendis?</p>
+                    <p>Brindamos un servicio de instalación impecable de la mano de nuestros tecnicos matriculados con amplia experiencia en el rubro. Damos garantia de trabajo de hasta un año por instalacion tanto de equipos nuestros como adquiridos fuera de nuestra empresa. </p>
                 </div>
                 <div>
-                    <h3>Repuestos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore exercitationem assumenda cum impedit ut officiis cupiditate culpa minus iure reiciendis?</p>
+                    <h3>Mantenimiento</h3>
+                    <p>Nuestro servicio de mantenimiento para tus equipos asegura un rendimiento óptimo. Con inspecciones regulares, limpieza y ajustes porporcionando un ambiente mas eficiente, manteniedno tu sistema en condiciones ideales.</p>
                 </div>
             </div>
         </section>
@@ -48,58 +49,106 @@
             <h2>Productos</h2>
             <div class="conteiner-grid-products">
                 <div>
-                    <img src="" alt="">
-                    <p>nombre
+                 <div class="container-img-products">
+                    <img src="./assets/images/aire acondicionado split toshiba.png" alt="imagen de split">
+                 </div>
+                    <p>
+                        nombre
                         precio
                         <button>comprar</button>
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <p>nombre
+                 <div class="container-img-products">   
+                    <img src="./assets/images/aire acondicionado toshiba 6000.png" alt="imagen split 6000">
+                </div>
+                    <p>
+                        nombre
                         precio
                         <button>comprar</button>
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <p>nombre
+                    <div class="container-img-products">
+                        <img src="./assets/images/roof top carrier.png" alt="imagen roof top">
+                    </div>
+                    <p>
+                        nombre
                         precio
                         <button>comprar</button>
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <p>nombre
+                  <div class="container-img-products">
+                    <img src="./assets/images/uta carrier.png" alt="imagen uta">
+                  </div>
+                    <p>
+                        nombre
                         precio
                         <button>comprar</button>
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <p>nombre
+                    <div class="container-img-products">
+                    <img src="./assets/images/chiller carrier.png" alt="imagen chiller">
+                  </div>
+                    <p>
+                        nombre
                         precio
                         <button>comprar</button>
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <p>nombre
+                    <div class="container-img-products">
+                    <img src="./assets/images/caldera-vapor-bosh.png" alt="imagen caldera">
+                </div>
+                    <p>
+                        Nombre
                         precio
                         <button>comprar</button>
                     </p>
                 </div>
             </div>
         </section>
-        <section id="contact"></section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input 
+                    id="name"
+                    type="text"
+                    placeholder="ingrese su nombre"
+                    required
+                    >
+                </div>
+                <div>
+                    <label for="email">Correo electronico</label>
+                    <input 
+                    id="email"
+                    type="email"
+                    placeholder="ingrese su email"
+                    required
+                    >
+                </div>
+                    <div>
+                        <label for="message"></label>
+                        <textarea id="message" placeholder="ingrese su mensaje"></textarea>
+                    </div>
+            </form>
+        </section>
+        <section>
+            <div class="skewed"></div>
+          </section>
     </main>
     <footer>
     <p>
         <h3>Contacto</h3>
         <i class='bx bxs-envelope'></i>m.arielconte@hotmail.com.ar
-        1124096822
+        <i class='bx bxl-whatsapp'></i>1124096822
+        <i class='bx bxl-instagram'></i>@martiscluib
     </p>
-    <button><img src="./assets/images/whatsapp-logo-24.png" alt="Logo de wasap"></button>
+    <button><img src="./assets/images/whatsapp.png" alt=""></button>
     </footer>
 </body>
 </html>

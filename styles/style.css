@@ -6,9 +6,11 @@
 
 :root {
     --color-primary: rgb(206, 159, 71); 
-    --color-secundary: 
+    --color-secundary: rgb(28, 105, 221);
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font-h1: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
 
 
 header {
@@ -47,8 +49,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(28, 105, 221);
-    text-decoration: ;
+    background-color: var(--color-secundary)
 }
 
 #banner img {
@@ -60,7 +61,7 @@ section {
     font-size: 50px;
     text-decoration: none;
     margin: 30px 30px;
-    font-family: var(--font-family);
+    font-family: var(--font-h1)
 
 }
 

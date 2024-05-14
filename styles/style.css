@@ -149,8 +149,9 @@ margin: 10px;
 
 #products .contain-products {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr ;
 justify-content: center;
+text-align: center;
 gap:10px;
 }
 
@@ -200,6 +201,10 @@ transition: 0.5s;
     color:  rgb(8, 122, 171);
 }
 
+#contact{
+    position: relative;
+}
+
 form{
     width: 50%;
     margin: auto;
@@ -244,6 +249,33 @@ form input, textarea, button{
 #contact button:hover{
  transform: scale(1.1);
 }
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding: 20px;
+}
+
+.wasap{
+    position: absolute;
+    bottom: -70px;
+    right: 50px;
+}
+
+.skewed {
+    width: 0;
+    height: 0;
+    border-right: 100vw solid transparent;
+    border-bottom: 13.8vw solid black;
+    margin-top: -10.5vw;
+}
+
+
 
 
 

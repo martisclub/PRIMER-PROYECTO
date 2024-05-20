@@ -341,8 +341,34 @@ font-size: 18px;
         padding: 15px;
     }
 
-    
+    header img {
+        width: 35px;
+        margin-left: 0px;
+    }
+
+    header nav ul li a {
+        display: flex;
+        padding: 0px;
+        gap: 0px;
+        text-align: center ;
+        font-size: 16px;
 }
+
+footer {
+    padding: 5px;
+}
+footer h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+footer .footer-info {
+font-size: 15px;
+text-align:left;
+}
+
+}
+
 
 
 

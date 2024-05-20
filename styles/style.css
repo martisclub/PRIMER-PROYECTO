@@ -302,17 +302,45 @@ font-size: 18px;
     margin-top: -10.5vw;
 }
 
+
 /*Responsive*/
 
-@media (max-widht:880px){
+@media (max-width:880px){
+    #banner {
+        display: flex;
+        flex-direction: column;
+}
+
+
     #category .category-grid-services,
-   #products .contain-products {
-        grid-template-columns: 1fr ;
+    #products .contain-products{
+        grid-template-columns: 1fr 1fr;
     }
 
 }
 
-@media (max-widht:480px){
+@media (max-width:480px){
+    #banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    #category .category-grid-services,
+    #products .contain-products {
+        grid-template-columns: 1fr;
+    }
+
+    .wasap{
+        bottom: -40px;
+        right: 40px;
+    }
+
+    .wasap img {
+        height: 40px;
+        padding: 15px;
+    }
+
     
 }
 
